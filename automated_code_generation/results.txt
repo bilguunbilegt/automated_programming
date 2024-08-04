@@ -1,0 +1,12 @@
+Set 1:
+Intercept: 8.00, Slope: 7.00, R-squared: -1186.89, Correlation: 0.82
+
+Set 2:
+Intercept: 8.00, Slope: 7.00, R-squared: -1186.82, Correlation: 0.82
+
+Set 3:
+Intercept: 8.00, Slope: 7.00, R-squared: -1188.05, Correlation: 0.82
+
+Set 4:
+Intercept: 7.00, Slope: 7.00, R-squared: -1154.50, Correlation: 0.82
+
