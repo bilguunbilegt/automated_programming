@@ -21,7 +21,15 @@ The process involved several steps:
 
 ## Conclusion
 
-While `goyacc` is powerful for generating parsers, it is unsuitable for regenerating specific test cases unless explicitly defined in the grammar and actions. This situation highlights the importance of maintaining comprehensive test cases and documentation to ensure that automated tools can accurately recreate essential files when needed.
+While `goyacc` is powerful for generating parsers, it is unsuitable for regenerating specific test cases unless explicitly defined in the grammar and actions. This situation highlights the importance of maintaining comprehensive test cases and documentation to ensure that automated tools can accurately recreate essential files when needed. Overall, it will not be recommended.
+
+### AI Assisted Code:
+GitHUB Copilot was used to write the code. Started with Import, and Anscombe Quartet data. The GitHUB Copilot predicted everything I wanted to write. Every single line of code was predicted. 
+
+## Conclusion
+
+Simply AMAZING. Maybe becuase I had the same code somewhere in my workspace, GitHUB Copilot predicted everything. I only typed 'func' and it wrote the rest. Compared to the other two codes, this one does not have any issues and it runs (but it does not have the correct answers in the file, in fact, the output file was empty) The other two use cases have code that does not run. Debugging was very difficult. We could start generating code with ChatGPT and then use GitHUB copilot to debug. THis migth be the fastest approach to start coding.
+
 
 ### AI Generated Code:
 ChatGPT 4.o was used for this code generation. The chat history can be found here: https://chatgpt.com/c/01979ee9-419a-4a84-b2b0-f9296e86d99c
@@ -33,4 +41,4 @@ Observations:
 
 ## Conclusion
 
-While ChatGPT was very fast to generate the codes, it was time consuming to resolve the errors it generated. I would prefer to use it to generate a simple code for each function separately. 
+While ChatGPT was very fast to generate the codes, it was time consuming to resolve the errors it generated. I would prefer to use it to generate a simple code for each function separately. It was very fast to generate base code with some explanations. I would recommend this approach, but debugging might be difficult.
